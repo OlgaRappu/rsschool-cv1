@@ -5,30 +5,49 @@
  * {
   box-sizing: border-box;
 }
+header{
+  font-family: 'OpenSans', sans-serif;
+}
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #2d815e;
 }
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
   }
 .nav-link {
-  padding: 0 20px;
+  padding: 0 10px;
   line-height: 50px;
   transition: .3s;
+  text-decoration: none;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #077e21;
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+.footer
+{background-color: azure;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
 }
 html {
   scroll-behavior: smooth; 
@@ -44,17 +63,24 @@ html {
 .section-title {
     font-size: 20px;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 5px;
     color: #387265;
   }
-}
 .main-container {
   display: flex;
   flex-wrap: wrap;
 }
+.section-profile-title {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+  text-align: center;  
+  text-transform: none;
+}
 .section {
-  width: calc(50% - 20px);
+  width: 100%;/*calc(50% - 20px);*/
   padding: 10px;
   padding-bottom: 35px;
   border-bottom: 1px solid #338a8d;
@@ -64,6 +90,20 @@ html {
     width: 100%;
   }
 }
+.section-profile-img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20%;
+  transition: .2s;
+}
+
+.rss-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.section-profile-img:hover {
+=======
 .section-profile-logo {
   width: 300px;
   height: 300px;
@@ -82,5 +122,7 @@ html {
   justify-content: space-around;
   width: 100%;
   padding: 50px 30px 35px;
+} 
+=======
   border-bottom: 15px solid #d7d1c9;
 }
