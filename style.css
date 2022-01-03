@@ -82,8 +82,7 @@ html {
 .section {
   width: 100%;/*calc(50% - 20px);*/
   padding: 10px;
-  padding-bottom: 35px;
-  border-bottom: 1px solid #338a8d;
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   .section {
@@ -91,7 +90,7 @@ html {
   }
 }
 .section-profile-img {
-  width: 350px;
+  width: 250px;
   height: 250px;
   border-radius: 20%;
   transition: .2s;
