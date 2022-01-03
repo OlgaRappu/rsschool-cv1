@@ -14,9 +14,9 @@ body {
   justify-content: space-between;
   font-family: 'OpenSans', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
-  color: #2d815e;
+  color: #2a14a3;
 }
 .nav-list {
   display: flex;
@@ -26,39 +26,38 @@ body {
   }
 .nav-link {
   padding: 0 10px;
-  line-height: 50px;
   transition: .3s;
   text-decoration: none;
   font-family: 'OpenSans', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.1;
-  color: #077e21;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.2;
+  color: #120750;
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 .footer
-{background-color: azure;
+{background-color: rgb(205, 197, 247);
 }
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  color: #fff;
+  color: rgb(153, 151, 160);
 }
 html {
   scroll-behavior: smooth; 
 }
 .section-title {
     width: 100%;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
     text-transform: none;
     letter-spacing: 5px;
-    color: #387265;
+    color: #120750;
   }
 .main-container {
   display: flex;
@@ -67,7 +66,8 @@ html {
 .section-profile-title {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: normal;
+  align-items: center;
   align-content: center;
   text-align: center;  
   text-transform: none;
