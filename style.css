@@ -92,7 +92,7 @@ html {
 .section-profile-img {
   width: 250px;
   height: 250px;
-  border-radius: 20%;
+  border-radius: 60%;
   transition: .2s;
 }
 
@@ -107,9 +107,7 @@ html {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  border-radius: 20%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-  filter: grayscale(0.2) brightness(1.05);
+  border-radius: 40%;
   transition: .3s;
 }
 .section-profile-logo:hover {
