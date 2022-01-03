@@ -52,15 +52,8 @@ body {
 html {
   scroll-behavior: smooth; 
 }
-.section-item a {
-  color: #d7f0da;
-  text-decoration: none;  
-  transition: color 0.5s;
-}
-.section-item a:hover {
-  color: #4ea099;
-}
 .section-title {
+    width: 100%;
     font-size: 20px;
     font-weight: 400;
     text-transform: none;
@@ -80,7 +73,7 @@ html {
   text-transform: none;
 }
 .section {
-  width: 100%;/*calc(50% - 20px);*/
+  width: 50%;
   padding: 10px;
   padding-bottom: 10px;
 }
@@ -100,22 +93,9 @@ html {
   width: 100px;
   height: 100px;
 }
-.section-profile-img:hover {
-  filter:none;
-}
-.section-profile-logo {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 40%;
-  transition: .3s;
-}
-.section-profile-logo:hover {
-  filter: none;
-}
 .section-profile {
   display: flex;
   justify-content: space-around;
-  width: 50%;
-  padding: 50px 30px 35px;
+  width: 100%;
+  padding: 10px 10px 10px;
 } 
